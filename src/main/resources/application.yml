@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: sample-spring-elasticsearch
+  data:
+    elasticsearch:
+      client:
+        reactive:
+          endpoints: localhost:9200
+          max-in-memory-size: 500MB
+  codec:
+    max-in-memory-size: 500MB
+
